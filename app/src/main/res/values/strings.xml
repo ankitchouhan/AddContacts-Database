@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DataBaseFirst</string>
+    <string name="splashText">Ankit Chouhan</string>
+    <string name="Login">Login</string>
+    <string name="username">UserName:</string>
+    <string name="password">Password:</string>
+    <string name="signIn">Sign In</string>
+    <string name="signOut">Sign Out</string>
+    <string name="Welcome">Welcome</string>
+    <string name="addContacts">Add Contacts</string>
+    <string name="b_addContact">Add Contact</string>
+    <string name="et_contactNameHint">Contact Name</string>
+    <string name="et_contactNumberHint">Contact Number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

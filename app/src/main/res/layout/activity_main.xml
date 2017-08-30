@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.databasefirst.MainActivity"
+    android:background="#aabbff">
+
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:textSize="@dimen/tv_login"
+        android:gravity="center"
+        android:textColor="@color/textView"
+        android:layout_marginTop="@dimen/tv_login_marginTop"
+        android:layout_marginBottom="@dimen/tv_login_marginBottom"/>
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_login"
+        android:text="@string/username"
+        android:textSize="@dimen/tv_user_pass"
+        android:textColor="@color/textView"
+        android:layout_margin="@dimen/tv_user_pass_margin"/>
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_login"
+        android:layout_toRightOf="@id/tv_username"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/tv_user_pass_margin"
+        android:layout_toEndOf="@id/tv_username"
+        android:layout_alignBaseline="@id/tv_username"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:text="@string/password"
+        android:textSize="@dimen/tv_user_pass"
+        android:textColor="@color/textView"
+        android:layout_margin="@dimen/tv_user_pass_margin"
+        />
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:layout_toEndOf="@id/tv_username"
+        android:layout_toRightOf="@id/tv_username"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/tv_user_pass_margin"
+        android:layout_alignBaseline="@id/tv_password"
+        android:maxLines="1"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/b_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/tv_user_pass_margin"
+        android:text="@string/signIn"/>
+</RelativeLayout>

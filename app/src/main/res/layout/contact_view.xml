@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cv_margin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_rv_contactImage"
+            android:layout_width="@dimen/iv_rv_size"
+            android:layout_height="@dimen/iv_rv_size"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_margin="@dimen/iv_rv_margin"/>
+        <TextView
+            android:id="@+id/tv_rv_contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_rv_contactImage"
+            android:textSize="@dimen/tv_rv_name_textSize"
+            android:layout_marginTop="@dimen/tv_rv_name_MarginTop"/>
+        <TextView
+            android:id="@+id/tv_rv_contactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tv_rv_number_textSize"
+            android:layout_below="@id/tv_rv_contactName"
+            android:layout_toRightOf="@id/iv_rv_contactImage"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>

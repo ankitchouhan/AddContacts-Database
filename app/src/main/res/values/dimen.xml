@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_splash">22sp</dimen>
+    <dimen name="tv_login">35sp</dimen>
+    <dimen name="tv_login_marginTop">140dp</dimen>
+    <dimen name="tv_login_marginBottom">10dp</dimen>
+    <dimen name="tv_user_pass">25sp</dimen>
+    <dimen name="tv_user_pass_margin">15dp</dimen>
+    <dimen name="welcome_marginLeft">5dp</dimen>
+    <dimen name="welcomeNameMargin">10dp</dimen>
+    <dimen name="iv_rv_size">80dp</dimen>
+    <dimen name="cv_margin">8dp</dimen>
+    <dimen name="iv_rv_margin">5dp</dimen>
+    <dimen name="tv_rv_name_MarginTop">15dp</dimen>
+    <dimen name="tv_rv_name_textSize">22sp</dimen>
+    <dimen name="tv_rv_number_textSize">17sp</dimen>
+</resources>
